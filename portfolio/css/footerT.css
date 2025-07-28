@@ -1,0 +1,63 @@
+footer {
+    background: linear-gradient(to right, #113a3a, #145252);
+    color: #f1f1f1;
+    padding: 15px 5%;
+    padding-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 15px;
+}
+
+.contactInfo {
+    flex: 1 1 60%;
+    line-height: 1.5;
+}
+
+.contactInfo h1 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    color: #e63946;
+}
+
+.contactInfo p {
+    font-size: 14px;
+    color: #d9d9d9;
+}
+
+.socialLink {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.socialLink a {
+    background-color: #e63946;
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.socialLink a:hover {
+    background-color: #c62828;
+    transform: translateY(-2px);
+}
+
+.copyRight {
+     background-color: rgb(217, 71, 52);
+    text-align:center;
+}
